@@ -212,7 +212,7 @@ Only the three quirks included above are recognized at this point:
             <Feature name="can-swap-width-height" />
             <Limit name="performance-point-3840x2160" value="24" />
         </MediaCodec>
-        <MediaCodec name="OMX.qcom.video.decoder.avc.secure" type="video/avc" >
+        <!--MediaCodec name="OMX.qcom.video.decoder.avc.secure" type="video/avc" >
             <Quirk name="requires-allocate-on-input-ports" />
             <Quirk name="requires-allocate-on-output-ports" />
             <Limit name="size" min="64x64" max="1920x1088" />
@@ -224,7 +224,7 @@ Only the three quirks included above are recognized at this point:
             <Feature name="secure-playback" required="true" />
             <Limit name="concurrent-instances" max="2" />
             <Limit name="performance-point-1920x1088" value="30" />
-        </MediaCodec>
+        </MediaCodec-->
         <MediaCodec name="OMX.qcom.video.decoder.mpeg2" type="video/mpeg2" >
             <Quirk name="requires-allocate-on-input-ports" />
             <Quirk name="requires-allocate-on-output-ports" />
