@@ -27,9 +27,6 @@
 /(vendor|system/vendor)/bin/init\.gbmods\.sh                    u:object_r:init-gbmods-sh_exec:s0
 /(vendor|system/vendor)/bin/mods_camd                         u:object_r:mods_exec:s0
 
-/(vendor|system/vendor)/bin/hw/vendor\.lineage\.livedisplay@2\.0-service-sdm\.motorola_sdm632              u:object_r:hal_lineage_livedisplay_qti_exec:s0
-/(vendor|system/vendor)/bin/hw/vendor\.lineage\.livedisplay@2\.0-service-sysfs\.motorola_sdm632            u:object_r:hal_lineage_livedisplay_sysfs_exec:s0
-
 /(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-fpcservice    u:object_r:hal_fingerprint_fpc_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-service-ets   u:object_r:hal_fingerprint_fpc_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service\.msm8953    u:object_r:hal_light_default_exec:s0

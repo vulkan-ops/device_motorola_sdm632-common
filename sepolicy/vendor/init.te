@@ -13,4 +13,3 @@ allow init fsg_firmware_file:filesystem getattr;
 allow init vendor_data_file:file lock;
 allow init hal_audio_default:binder call;
 allow init platform_app:binder call;
-allow init sysfs_livedisplay_tuneable:file { open read setattr };
